@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Wajahat - Resume</title>
+    <style>
+     
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+        
+        .container {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        
+        header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #f5f7fa;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .header-text {
+            background-color: #2980b9;
+            color: white;
+            padding: 25px;
+            border-radius: 8px;
+            margin-left: 20px;
+            flex: 2;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .header-text h1 {
+            color: white;
+            margin: 0 0 8px 0;
+            font-size: 2em;
+        }
+
+        .header-text h2 {
+            color: #ecf0f1;
+            margin: 0 0 15px 0;
+            font-weight: 500;
+            font-size: 1.2em;
+        }
+
+        .header-text p {
+            color: #dfe6e9;
+            line-height: 1.6;
+            margin: 0;
+            font-size: 0.95em;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px 20px;
+        }
+
+        .nav-menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-item {
+            margin-bottom: 15px;
+        }
+
+        .nav-title {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #3498db;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-title::before {
+            content: "•";
+            margin-right: 8px;
+            font-size: 1.5em;
+        }
+
+        .sub-menu {
+            list-style: none;
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+
+        .sub-item {
+            margin-bottom: 8px;
+            color: #ecf0f1;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        
+        
+        .main-content {
+            flex: 1;
+            padding: 40px;
+            background-color: white;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            
+            .sidebar {
+                width: 100%;
+                padding: 20px;
+            }
+            
+            .main-content {
+                padding: 20px;
+            }
+            
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .header-text {
+                margin: 20px 0 0 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="Empty.png" alt="Profile Photo" class="profile-img">
+        </div>
+        <div class="header-text">
+            <h1>Muhammad Wajahat</h1>
+            <h2>Student</h2>
+            <p>A highly motivated 4th-semester Information Technology student with a deep enthusiasm for web development and a strong foundation in HTML, CSS. Eager to apply classroom knowledge to real-world projects.</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Left Sidebar Navigation -->
+        <div class="sidebar">
+            <ul class="nav-menu">
+                
+                <li class="nav-item">
+                    <div class="nav-title">Skills</div>
+                    <ul class="sub-menu">
+                        <li class="sub-item">Developing skills in web development</li>
+                        <li class="sub-item">Enhancing proficiency in Data Science</li>
+                        <li class="sub-item">Expanding knowledge of Python</li>
+                        <li class="sub-item">Microsoft Word</li>
+                        <li class="sub-item">Microsoft Powerpoint</li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <div class="nav-title">Languages</div>
+                    <ul class="sub-menu">
+                        <li class="sub-item">C++</li>
+                        <li class="sub-item">Python(learning Fundamentals)</li>
+                        <li class="sub-item">Enhancing proficiency in HTML</li>
+                        <li class="sub-item">English</li>
+                        <li class="sub-item">assembly Language</li>
+                    </ul>
+                </li>
+                
+                <li class="nav-item">
+                    <div class="nav-title">Interests</div>
+                    <ul class="sub-menu">
+                        <li class="sub-item">Data Science</li>
+                        <li class="sub-item">OOP</li>
+                        <li class="sub-item">web Development</li>
+                        <li class="sub-item">In Sports (volley Ball, badminton)</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- Main Content Area -->
+        <div class="main-content">
+            <div class="section">
+                <h2 class="section-title">Education</h2>
+                <h4>Study Program</h4>
+                <p>Currently Doing Bachelors in IT </p>
+                <h4>Institution</h4>
+                <p>University of Management and Technology</p>
+                <h4>Matriculation</h4>
+                <p>COE, Govt. Pilot School, Sialkot</p>
+                <h4>iNTERMEDIATE</h4>
+                <p>Punjab Group of Colleges, Sialkot</p>
+                
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Projects</h2>
+                <P>Library Management System (OOP)</P>
+                <P>Library Management System(Assembly Language)</P>
+                <P>Current Detector (Digital Logic Design)</P>
+                <P>Patients Records management (PF)</P>
+                
+            </div>
+            
+            <div class="section">
+                <h2 class="section-title">Achievements</h2>
+                <p>High Grades in Matric and Intermediate</p>
+                <p>Manage Time Efficiently</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
